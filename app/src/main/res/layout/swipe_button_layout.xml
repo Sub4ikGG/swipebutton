@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="0dp">
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            app:shimmer_auto_start="true"
+            app:shimmer_base_alpha="1"
+            app:shimmer_base_color="#F6F4F4"
+            app:shimmer_colored="true"
+            app:shimmer_duration="2000"
+            app:shimmer_highlight_color="#FFFFFFFF">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/swipe_button_background"
+                android:backgroundTint="#F6F4F4" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <View
+            android:id="@+id/background_progress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#a0dcee"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:text="@string/hello" />
+
+        <ImageView
+            android:id="@+id/thumb"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/swipe_switch_track_on"
+            android:contentDescription="@string/swipe_thumb"
+            android:padding="16dp"
+            android:src="@drawable/swipe_arrow" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

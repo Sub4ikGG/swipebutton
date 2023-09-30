@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SwipeButton">
+        <attr name="swipeText" format="string"/>
+        <attr name="swipeFontFamily" format="reference"/>
+        <attr name="swipeTextSize" format="dimension"/>
+        <attr name="swipeTextColor" format="color"/>
+        <attr name="swipeDrawable" format="reference"/>
+        <attr name="swipeThumbColor" format="color"/>
+        <attr name="swipeProgressColor" format="color"/>
+    </declare-styleable>
+</resources>
