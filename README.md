@@ -1,5 +1,6 @@
 # swipebutton
-Simple Android SwipeButton
+Simple Android SwipeButton  
+Example: https://github.com/Sub4ikGG/swipebuttonexample  
 [![](https://jitpack.io/v/Sub4ikGG/swipebutton.svg)](https://jitpack.io/#Sub4ikGG/swipebutton)
 
 ![telegram-cloud-photo-size-2-5242238087529090585-y](https://github.com/Sub4ikGG/swipebutton/assets/98654420/b79897e9-6231-412a-baa5-ceacaebcdd32)
@@ -46,7 +47,6 @@ dependencies {
     implementation("com.github.Sub4ikGG:swipebutton:1.0.0")
 }
 ```
-
 # Start
 Add View to your layout
 
