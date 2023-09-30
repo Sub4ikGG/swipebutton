@@ -31,7 +31,7 @@ allprojects {
 ```
 ## Dependency
 Step 2. Add the dependency  
-Groovy
+### Groovy
 ```
 dependencies {
     ...
@@ -39,7 +39,7 @@ dependencies {
     implementation 'com.github.Sub4ikGG:swipebutton:1.0.0'
 }
 ```
-Kts
+### Kts
 ```
 dependencies {
     ...
